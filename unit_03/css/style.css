@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: "unit_03/images/gino_hero.jpg";
+  background-image: url("unit_03/images/gino_hero.jpg");
   background-size: cover;
   color: #fff;
   font-family: Avenir;
