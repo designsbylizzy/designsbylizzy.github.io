@@ -4,6 +4,7 @@
 body {
   text-align: center;
   background-image: url("../images/gino_hero_2.jpg");
+  background-attachment: fixed;
   background-size: cover;
   color: #fff;
   font-family: 'Poppins', sans-serif;
