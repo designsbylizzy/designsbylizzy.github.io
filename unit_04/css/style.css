@@ -1,0 +1,38 @@
+<link href="https://fonts.googleapis.com/css?family=Kulim+Park|Slabo+27px&display=swap" rel="stylesheet">
+
+body {
+  text-align: center;
+  background-image: url("../images/gino_hero_2.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: 'Slabo 27px', serif;
+  margin: 300px;
+
+}
+
+
+hr {
+  width: 200px;
+}
+
+
+ul {
+  text-align: left;
+}
+
+#slogan {
+  Font-style: italic;
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 18px;
+          }
+
+a {
+	font-weight: bold;
+  	color: #FF0000;
+  	text-decoration: none;
+}
+
+h1 {
+  font-family: 'Kulim Park', sans-serif;
+}
