@@ -1,12 +1,13 @@
-<link href="https://fonts.googleapis.com/css?family=Kulim+Park|Slabo+27px&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
   text-align: center;
   background-image: url("../images/gino_hero_2.jpg");
   background-size: cover;
   color: #fff;
-  font-family: 'Slabo 27px', serif;
-  margin: 300px;
+  font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -21,18 +22,19 @@ ul {
 }
 
 #slogan {
-  Font-style: italic;
+  font-style: italic;
   font-weight: bold;
   color: #FF0000;
   font-size: 18px;
+  font-family: 'Playfair Display', serif;
           }
 
 a {
 	font-weight: bold;
-  	color: #FF0000;
-  	text-decoration: none;
+  color: #FF0000;
+  text-decoration: none;
 }
 
 h1 {
-  font-family: 'Kulim Park', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
