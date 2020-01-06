@@ -20,6 +20,19 @@ ul {
   text-align: left;
 }
 
+
+a {
+	font-weight: bold;
+  color: #FF0000;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+
 #slogan {
   font-style: italic;
   font-weight: bold;
@@ -28,12 +41,8 @@ ul {
   font-family: 'Playfair Display', serif;
           }
 
-a {
-	font-weight: bold;
-  color: #FF0000;
-  text-decoration: none;
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-}
