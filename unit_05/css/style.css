@@ -5,24 +5,16 @@
 
 body {
   text-align: center;
-  background-image: url("../images/gino_hero_2.jpg");
-  background-attachment: fixed;
-  background-size: cover;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-
 }
 
-
-hr {
-  width: 200px;
+header {
+  height: 450px;
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
 }
-
-
-ul {
-  text-align: left;
-}
-
 
 a {
 	font-weight: bold;
@@ -31,15 +23,11 @@ a {
 }
 
 
-h1 {
-  font-family: 'Abril Fatface', cursive;
-}
-
 nav{
-  padding-top: 30px;
-  padding-bottom: 60px;
+  background-color: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
 }
-
 
 nav a {
   text-align: center;
@@ -50,21 +38,55 @@ nav a {
   margin-right: 10px;
 }
 
-
-
-#slogan {
-  font-style: italic;
-  font-weight: bold;
-  color: #FF0000;
-  font-size: 18px;
-          }
-
-#wrapper {
-  width: 700px;
-  margin: 0 auto;
-  padding-top: 20px;
+h2 {
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
 }
 
+footer {
+  height: 120px;
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+
 #info {
-  background: black;
+  background: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px
+}
+
+#logo {
+  padding-top: 75px;
+}
+
+#green {
+  height: 80px;
+  background-color: #FFE2B8;
+  margin: 0px;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#red {
+  height: 80px;
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px
+}
+
+#about {
+  background-color: #FFE2B8;
+  text-align: left;
+  color: black;
+  border: 1px black solid;
+  padding: 20px
+}
+
+#footnav {  
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
