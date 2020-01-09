@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
 
 body {
   text-align: center;
@@ -30,7 +32,7 @@ a {
 
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Abril Fatface', cursive;
 }
 
 nav{
@@ -55,7 +57,6 @@ nav a {
   font-weight: bold;
   color: #FF0000;
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
           }
 
 #wrapper {
