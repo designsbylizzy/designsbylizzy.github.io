@@ -15,7 +15,7 @@ header {
   background-image: url("../images/gino_hero_2.jpg");
   background-attachment: fixed;
   background-size: cover;
-  height: 500px;
+  height: 450px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -83,6 +83,7 @@ footer a:hover {
   width: 33%;
   float: left;
   height: 300px;
+  margin-top: 30px;
 
 }
 
@@ -90,6 +91,7 @@ footer a:hover {
 .column {
   width: 50%;
   float: left;
+  margin-top: 60px;
 }
 
 .clearfix:after{
@@ -103,12 +105,13 @@ footer a:hover {
 
 
 .margin {
-  width: 900px;
+  width: 1000px;
   margin: auto;
+  height: 568px;
 }
 
 .wrapper {
-  width: 900px;
+  width: 1000px;
   margin: 0px auto;
   display: inline-block;
 }
@@ -121,14 +124,17 @@ footer a:hover {
 }
 
 #abouttext{
-  padding-top: 30px;
+  margin-top: 125px;
 }
 
+#events {
+  height: 768px;
+  background-color: #3B5946;
+}
 
 #info {
   background: black;
-  padding-bottom: 20px;
-  padding-top: 30px;
+  height: 318px;
 }
 
 #logo {
@@ -137,14 +143,14 @@ footer a:hover {
   margin-bottom: 60px;
 }
 
-#green {
-  height: 80px;
+.green {
+  height: 100px;
   background-color: #3B5946;
   text-align: center;
 }
 
 #red {
-  height: 80px;
+  height: 100px;
   background-color: #C90F35;
 }
 
@@ -153,4 +159,28 @@ footer a:hover {
   padding-top: 20px;
   padding-bottom: 10px;
   color: white;
+}
+
+#eventcontact {
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  width: 800px;
+  margin: auto;
+}
+
+#calendar {
+  height: 500px;
+  margin-top: 20px;
+}
+
+#redhead {
+  color: #C90F35;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#social {
+  height: 768px;
 }
