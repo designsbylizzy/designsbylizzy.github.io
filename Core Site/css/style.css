@@ -11,6 +11,11 @@ body {
 }
 
 
+* {
+margin:0;
+padding:0;
+}
+
 header {
   background-image: url("../images/gino_hero_2.jpg");
   background-attachment: fixed;
@@ -28,8 +33,8 @@ a {
 
 
 nav{
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 
@@ -38,14 +43,13 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 
 nav a:hover {
   color: #C90F35;
-  font-weight: 800;
 }
 
 
@@ -58,7 +62,7 @@ h2 {
 
 h6 {
   color: white;
-  margin-bottom: 2px;
+  margin-bottom: 15px;
   font-size: 18px;
   margin-top: 10px;
 }
@@ -74,7 +78,7 @@ footer a {
   text-align: center;
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -88,13 +92,12 @@ footer a:hover {
 .infocolumn {
   width: 33%;
   float: left;
-  height: 300px;
+  height: 39%;
   margin-top: 30px;
-
 }
 
 
-.column {
+.aboutcolumn {
   width: 50%;
   float: left;
   margin-top: 60px;
@@ -111,7 +114,7 @@ footer a:hover {
 
 
 .margin {
-  width: 1000px;
+  width: 90%;
   margin: auto;
   height: 568px;
 }
@@ -122,12 +125,54 @@ footer a:hover {
   display: inline-block;
 }
 
+.blacktext {
+  color: black;
+}
+
+.green {
+  height: 100px;
+  background-color: #3B5946;
+  text-align: center;
+}
+
+.red {
+  height: 100px;
+  background-color: #C90F35;
+  text-align: center;
+}
+
+.contactcolumn {
+  width: 20%;
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.socialicons {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.arrows {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 0;
+  width: 18px;
+  opacity: 0.25;
+}
+
 
 #about {
   text-align: left;
   color: black;
   width: auto;
   line-height: 2em;
+}
+
+#map {
+  width: 450px;
 }
 
 #abouttext{
@@ -145,27 +190,14 @@ footer a:hover {
 }
 
 #logo {
-  padding-top: 75px;
+  padding-top: 3em;
   width: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 6em;
 }
-
-.green {
-  height: 100px;
-  background-color: #3B5946;
-  text-align: center;
-}
-
-.red {
-  height: 100px;
-  background-color: #C90F35;
-  text-align: center;
-}
-
 
 #footnav {  
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 2em;
+  padding-bottom: 1em;
   color: white;
 }
 
@@ -183,8 +215,6 @@ footer a:hover {
 
 #redhead {
   color: #C90F35;
-  padding-top: 1em;
-  padding-bottom: 1em;
   text-transform: uppercase;
 }
 
@@ -193,6 +223,34 @@ footer a:hover {
 }
 
 #insta {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 3em;
+  padding-right: 3em;
 }
+
+#copyright {
+  font-size: 13px;
+}
+
+#contact {
+  height: 648px;
+  background-color: black;
+}
+
+#bottommargin {
+  width: 90%;
+  margin: auto;
+  height: 84.37%;
+}
+
+#locationmargin {
+  margin-top: 115px;
+}
+
+#hoursmargin {
+  margin-top: 115px;
+}
+
+#contactmargin {
+  margin-top: 115px;
+}
+
