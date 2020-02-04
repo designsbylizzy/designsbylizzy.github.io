@@ -4,6 +4,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Gino and Carlo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -25,17 +26,17 @@
 	<section id="info" class="clearfix">
 		<div class="margin">
 			<div class="infocolumn">
-				<img src="images/location1.png" alt="location" width="125px">
+				<img src="images/location1.png" alt="location" class="infoimg">
 				<h6>LOCATION</h6>
 				<p>548 Green Street<br>San Francisco, CA</p>
 			</div>
 			<div class="infocolumn">
-				<img src="images/hours1.png" alt="hours" width="125px">
+				<img src="images/hours1.png" alt="hours" class="infoimg">
 				<h6>HOURS</h6>
 				<p>Open 365 Days a Year<br>6am-2am</p>
 			</div>
 			<div class="infocolumn">
-				<img src="images/contact1.png" alt="contact" width="125px">
+				<img src="images/contact1.png" alt="contact" class="infoimg">
 				<h6>CONTACT</h6>
 				<p><a href="tel:+14154210896">(415)421-0896</a><br><a href="mailto:ginoandcarlo@gmail.com?subject=Hello!">ginoandcarlo@gmail.com</a></p>
 			</div>
@@ -61,7 +62,7 @@
 					<img id="map" src="images/map-01.png" alt="map">
 				</div>
 				
-				<div class="column" id="abouttext">
+				<div class="aboutcolumn" id="abouttext">
 					<p> Here add info about the bar, history, events, sports, etc blah blah blah. 15 taps. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea hfjdsh.<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea.</p>
 				</div>
 
@@ -104,7 +105,9 @@
 		</h2>
 
 		<div id="insta">
-			<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/e45aeff0963e53adb515dfe90fffd015.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:90%;border:0;overflow:hidden;"></iframe>
+			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/e45aeff0963e53adb515dfe90fffd015.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+
 		</div>
 
 		<p class="blacktext">Follow us on social media:<br>
@@ -129,21 +132,23 @@
 				<div class="contactcolumn">
 					<img src="images/gino_sign-01.svg" alt="sign" width="170px">
 				</div>
-				<div class="contactcolumn" id="locationmargin">
-					<img src="images/location1.png" alt="location" width="100px">
-					<h6>LOCATION</h6>
-					<p>548 Green Street<br>San Francisco, CA</p>
-				</div>
-				<div class="contactcolumn" id="hoursmargin">
-					<img src="images/hours1.png" alt="hours" width="100px">
-					<h6>HOURS</h6>
-					<p>Open 365 Days a Year<br>6am-2am</p>
-				</div>
-				<div class="contactcolumn" id="contactmargin">
-					<img src="images/contact1.png" alt="contact" width="100px">
-					<h6>CONTACT</h6>
-					<p><a href="tel:+14154210896">(415)421-0896</a><br><a href="mailto:ginoandcarlo@gmail.com?subject=Hello!">ginoandcarlo@gmail.com</a></p>
-				</div>
+				<aside>
+					<div class="contactcolumn contactmargin">
+						<img src="images/location1.png" alt="location" width="100px">
+						<h6>LOCATION</h6>
+						<p>548 Green Street<br>San Francisco, CA</p>
+					</div>
+					<div class="contactcolumn contactmargin">
+						<img src="images/hours1.png" alt="hours" width="100px">
+						<h6>HOURS</h6>
+						<p>Open 365 Days a Year<br>6am-2am</p>
+					</div>
+					<div class="contactcolumn contactmargin">
+						<img src="images/contact1.png" alt="contact" width="100px">
+						<h6>CONTACT</h6>
+						<p><a href="tel:+14154210896">(415)421-0896</a><br><a href="mailto:ginoandcarlo@gmail.com?subject=Hello!">ginoandcarlo@gmail.com</a></p>
+					</div>
+				</aside>
 			</div>
 		</section>
 

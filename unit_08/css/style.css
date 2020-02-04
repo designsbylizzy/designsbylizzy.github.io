@@ -5,9 +5,10 @@ body {
   text-align: center;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  line-height: 1.5em;
+  line-height: 1.25em;
   margin-left: auto;
   margin-right: auto;
+  font-size: 16px;
 }
 
 
@@ -62,9 +63,9 @@ h2 {
 
 h6 {
   color: white;
-  margin-bottom: 15px;
-  font-size: 18px;
-  margin-top: 10px;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  margin-top: 1em;
 }
 
 
@@ -96,11 +97,15 @@ footer a:hover {
   margin-top: 30px;
 }
 
+.infoimg {
+  max-width: 140px;
+  width: 55%;
+}
+
 
 .aboutcolumn {
-  width: 48%;
+  width: 50%;
   float: left;
-  margin-top: 60px;
 }
 
 .clearfix:after{
@@ -121,8 +126,9 @@ footer a:hover {
 
 .wrapper {
   width: 90%;
+  margin: 0px auto;
   display: inline-block;
-  height: 100%;
+  max-width: 1000px;
 }
 
 .blacktext {
@@ -144,23 +150,24 @@ footer a:hover {
 .contactcolumn {
   width: 20%;
   float: left;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
+  font-size: .85em;
 }
 
 .socialicons {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-top: 1em;
 }
 
 .arrows {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1em;
+  margin-right: 1em;
   display: inline-block;
-  padding: 0;
-  width: 18px;
+  width: .5em;
   opacity: 0.25;
+  margin-bottom: .175em;
 }
 
 
@@ -169,16 +176,16 @@ footer a:hover {
   color: black;
   width: auto;
   line-height: 2em;
-  margin: auto;
 }
 
 #map {
   width: 90%;
-  max-width: 460px;
+  padding: 2em;
+  margin-top: 1em;
 }
 
 #abouttext{
-  background-color: pink;
+  margin-top: 125px;
 }
 
 #events {
@@ -204,7 +211,6 @@ footer a:hover {
 }
 
 #eventcontact {
-  font-size: 16px;
   color: #fff;
   width: 80%;
   margin: auto;
@@ -225,12 +231,12 @@ footer a:hover {
 }
 
 #insta {
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 #copyright {
-  font-size: 13px;
+  font-size: .75em;
 }
 
 #contact {
@@ -244,15 +250,70 @@ footer a:hover {
   height: 84.37%;
 }
 
-#locationmargin {
-  margin-top: 115px;
+.contactmargin {
+  margin-top: 8em;
 }
 
-#hoursmargin {
-  margin-top: 115px;
+
+@media only screen and (max-width: 980px) {
+
+
 }
 
-#contactmargin {
-  margin-top: 115px;
+
+@media only screen and (max-width: 800px) {
+  
+    .infocolumn {
+      width: 33%;
+      float: left;
+      height: 39%;
+      font-size: .8em;
+    }
+
+    header {
+      background-image: url("../images/gino_hero_3.jpg");
+      height: 450px;
+      background-attachment: fixed;
+      background-size: 200%;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
+    #logo {
+      padding-top: 3em;
+      width: 80%;
+      margin-bottom: 6em;
+    }
+
+    .wrapper {
+      width: 90%;
+      margin: auto;
+    }
+
+    .aboutcolumn {
+      float: none;
+      width: 100%;
+      margin: auto;
+    }
+
+
+    #map {
+      width: 70%;
+      padding: 1em;
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #abouttext{
+      margin-top: 1em;
+      font-size: .9em;
+      line-height: 1.5em;
+    }
+
 }
+
+}
+
 
