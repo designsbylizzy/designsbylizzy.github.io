@@ -25,6 +25,7 @@ header {
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: black;
 }
 
 
@@ -208,14 +209,6 @@ footer a:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-#events {
-  height: 768px;
-  background-image: url("../images/sf.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 #info {
   background: black;
@@ -228,10 +221,14 @@ footer a:hover {
   margin-bottom: 6em;
 }
 
-#footnav {  
-  padding-top: 2em;
-  padding-bottom: 1em;
-  color: white;
+
+#events {
+  height: 768px;
+  background-image: url("../images/sf.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #eventcontact {
@@ -242,9 +239,9 @@ footer a:hover {
 }
 
 #calendar {
-  height: 500px;
-  max-width: 900px;
-  margin: 2em auto;
+  max-width: 800px;
+  margin: .5em auto 1em auto;
+  width: 80%;
 }
 
 #redhead {
@@ -282,12 +279,18 @@ footer a:hover {
   width: 90%;
   margin: auto;
   height: 84.37%;
+  max-width: 950px;
 }
 
 .contactmargin {
   margin-top: 8em;
 }
 
+#footnav {  
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: white;
+}
 
 
 
