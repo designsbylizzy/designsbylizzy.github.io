@@ -294,6 +294,9 @@ footer a:hover {
 
 
 
+
+
+
 @media only screen and (min-width: 801px) and (max-width: 853px) {
 
    #map {
@@ -493,3 +496,9 @@ footer a:hover {
   }
 
 }
+
+@media only screen and (max-width: 660px) and (min-width: 0px) {
+    #eventcontact {
+      font-size: .8em;
+      line-height: 1.3em;
+    }
