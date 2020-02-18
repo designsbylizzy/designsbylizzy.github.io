@@ -151,7 +151,7 @@ footer a:hover {
   width: 45%;
   float: left;
   height: 39%;
-  margin-top: 30px;
+  margin-top: 3em;
   line-height: 1.5em;
 }
 
@@ -534,7 +534,8 @@ footer a:hover {
   @media only screen and (max-width: 524px) {
       
       .infoimg {
-        display: none;
+        float: left;
+        width: 90px;
       }
 
       .infomargin {
@@ -542,7 +543,7 @@ footer a:hover {
       }
 
       .margin2 {
-        width: 95%;
+        width: 100%;
         margin: auto;
         display: inline-block;
         height: 300px;
@@ -551,7 +552,7 @@ footer a:hover {
       .infocolumn2 {
         float: none;
         margin: auto;
-        width: 90%;
+        width: 70%;
         height: 30%;
         margin-top: 2.5em;
 
