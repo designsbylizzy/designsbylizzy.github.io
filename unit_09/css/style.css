@@ -633,6 +633,7 @@ footer a:hover {
 
 }
 
+
 @media only screen and (max-width: 660px) and (min-width: 0px) {
     #eventcontact {
       font-size: .8em;
@@ -686,7 +687,7 @@ footer a:hover {
 
     .twocontactcolumn {
       float: left;
-      width: 40%;
+      width: 45%;
       display: block;
     }
 
@@ -710,4 +711,72 @@ footer a:hover {
       display: none;
     }
 
+    #ginosign {
+      width: 155px;
+      margin-top: 1em;
+    }
+
 }
+
+
+@media only screen and (max-width: 500px) {
+
+    #bottomcontact {
+      display: none;
+    }
+
+
+    #bottommargin {
+      display: none;
+    }
+
+
+    #ginosign {
+      width: 145px;
+      margin-top: 2em;
+      object-position: left;
+    }
+
+    #smallcolcontact {
+      margin: auto;
+      width: 100%;
+      display: block;
+      margin-top: 2em;
+    }
+
+    .twocontactcolumn {
+      float: left;
+      width: 45%;
+      display: block;
+    }
+
+    #call {
+      margin: 2em 0;
+      display: block;
+      font-size: 1em;
+    }
+
+    #email {
+      margin: 2em 0;
+      display: block;
+      font-size: 1em;
+    }
+
+    .contacticons {
+      width: 50%;
+    }
+
+    p {
+      font-size: .85em;
+    }
+
+    #contact {
+      height: 600px;
+      background-color: black;
+    }
+
+
+}
+
+
+
