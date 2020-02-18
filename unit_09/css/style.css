@@ -349,6 +349,7 @@ footer a:hover {
   margin: auto;
   height: 84.37%;
   max-width: 950px;
+  margin-top: 2em;
 }
 
 .contactmargin {
@@ -510,6 +511,8 @@ footer a:hover {
       margin: auto;
     }
 
+  }
+
 
 @media only screen and (max-width: 650px) and (min-width: 525px) {
   
@@ -619,6 +622,8 @@ footer a:hover {
     max-width: 500px;
   }
 
+}
+
 @media only screen and (max-width: 499px) {
 
   #insta {
@@ -633,6 +638,8 @@ footer a:hover {
       font-size: .8em;
       line-height: 1.3em;
     }
+
+  }
 
 
 @media only screen and (max-width: 550px) and (min-width: 0px) {
@@ -674,6 +681,7 @@ footer a:hover {
       margin: auto;
       width: 90%;
       display: block;
+      margin-top: 2em;
     }
 
     .twocontactcolumn {
@@ -685,11 +693,13 @@ footer a:hover {
     #call {
       margin: 2em 0;
       display: block;
+      font-size: 1em;
     }
 
     #email {
       margin: 2em 0;
       display: block;
+      font-size: 1em;
     }
 
     #bottomcontact {
