@@ -62,6 +62,19 @@ nav a:hover {
   border-bottom: 2px solid white;
 }
 
+label {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+  display: none;
+}
+
+
+
 
 h2 {
   color: white;
@@ -88,9 +101,9 @@ footer a {
   text-align: center;
   color: white;
   text-decoration: none;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 1em;
+  margin-left: .75em;
+  margin-right: .75em;
 }
 
 
@@ -99,8 +112,43 @@ footer a:hover {
 }
 
 
+
+
+#info {
+  background: black;
+  height: 318px;
+}
+
+#logo {
+  margin-top: 3em;
+  width: 500px;
+  margin-bottom: 6em;
+}
+
+.infomargin {
+  width: 90%;
+  margin: auto;
+  height: 568px;
+  max-width: 1000px;
+}
+
+.margin2 {
+  width: 80%;
+  margin: auto;
+  height: 568px;
+  display: none;
+}
+
 .infocolumn {
   width: 33%;
+  float: left;
+  height: 39%;
+  margin-top: 30px;
+  line-height: 1.5em;
+}
+
+.infocolumn2 {
+  width: 45%;
   float: left;
   height: 39%;
   margin-top: 30px;
@@ -113,11 +161,6 @@ footer a:hover {
 }
 
 
-.aboutcolumn {
-  width: 50%;
-  float: left;
-}
-
 .clearfix:after{
   visibility: hidden;
   height: 0
@@ -127,12 +170,16 @@ footer a:hover {
   clear: both;
 }
 
-
 .margin {
   width: 90%;
   margin: auto;
-  height: 568px;
+  height: 587px;
   max-width: 1000px;
+}
+
+.aboutcolumn {
+  width: 50%;
+  float: left;
 }
 
 .wrapper {
@@ -152,7 +199,7 @@ footer a:hover {
 }
 
 .red {
-  height: 100px;
+  height: 5em;
   background-color: #C90F35;
   text-align: center;
 }
@@ -215,18 +262,6 @@ footer a:hover {
   color: #494949;
   font-size: .8em;
   font-family: 'Poppins', sans-serif;
-}
-
-
-#info {
-  background: black;
-  height: 318px;
-}
-
-#logo {
-  margin-top: 3em;
-  width: 500px;
-  margin-bottom: 6em;
 }
 
 
@@ -300,7 +335,9 @@ footer a:hover {
   color: white;
 }
 
-
+#toggle {
+  display: none;
+}
 
 
 
@@ -431,7 +468,7 @@ footer a:hover {
     }
 
     #logo {
-      padding-top: 3em;
+      margin-top: 1.5em;
       width: 80%;
       margin-bottom: 6em;
     }
@@ -447,6 +484,65 @@ footer a:hover {
       margin: auto;
     }
 
+
+@media only screen and (max-width: 650px) and (min-width: 525px) {
+  
+    .infomargin {
+      display:none;
+    }
+
+    .margin2 {
+      width: 90%;
+      margin: auto;
+      height: 568px;
+      display: inline-block;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 524px) {
+      
+      .infoimg {
+        display: none;
+      }
+
+      .infomargin {
+        display:none;
+      }
+
+      .margin2 {
+        width: 95%;
+        margin: auto;
+        display: inline-block;
+        height: 300px;
+      }
+
+      .infocolumn2 {
+        float: none;
+        margin: auto;
+        width: 90%;
+        height: 30%;
+        margin-top: 2.5em;
+
+      }
+
+      .infocolumn2 h6 {
+        color: #C90F35;
+      }
+
+      header {
+        background-image: url("../images/gino_hero_4.jpg");
+        height: 450px;
+        background-attachment: fixed;
+        background-size: 200%;
+        background-position: top;
+        background-repeat: no-repeat;
+      }
+
+
+  }
 
 
 
@@ -498,6 +594,7 @@ footer a:hover {
   }
 
 @media only screen and (max-width: 499px) {
+
   #insta {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -511,7 +608,36 @@ footer a:hover {
       line-height: 1.3em;
     }
 
-@media only screen and (max-width: 550px) {
 
+@media only screen and (max-width: 550px) and (min-width: 0px) {
+
+  label {
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 1em;
+      margin-right: 1em;
+      padding: 2em;
+      display: block;
+    }
+
+  nav{
+    display: none;
+  }
+
+  nav a{
+    display: block;
+  }
+
+    #toggle:checked + nav{
+      display: block;
+    }
+    
+    #logo {
+      margin-top: 5em;
+      width: 80%;
+      margin-bottom: 6em;
+    }
 
 }

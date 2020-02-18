@@ -101,9 +101,9 @@ footer a {
   text-align: center;
   color: white;
   text-decoration: none;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 1em;
+  margin-left: .75em;
+  margin-right: .75em;
 }
 
 
@@ -173,7 +173,7 @@ footer a:hover {
 .margin {
   width: 90%;
   margin: auto;
-  height: 568px;
+  height: 587px;
   max-width: 1000px;
 }
 
@@ -318,6 +318,32 @@ footer a:hover {
   background-color: black;
 }
 
+
+
+#smallcolcontact {
+  margin: auto;
+  width: 90%;
+  display: none;
+}
+
+.twocontactcolumn {
+  float: left;
+  width: 40%;
+  display: none;
+}
+
+#call {
+  margin: 2em 0;
+  display: none;
+}
+
+#email {
+  margin: 2em 0;
+  display: none;
+}
+
+
+
 #bottommargin {
   width: 90%;
   margin: auto;
@@ -437,14 +463,14 @@ footer a:hover {
         max-width: 1200px;
       }
 
-        #quote {
-          margin: .8em 0em .8em 1.1em;
-          line-height: 1.5em;
-          color: #3B5946;
-          font-family: 'Merriweather', serif;
-          font-weight: bold;
-          font-size: .9em;
-        }
+      #quote {
+        margin: .8em 0em .8em 1.1em;
+        line-height: 1.5em;
+        color: #3B5946;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: .9em;
+      }
 }
 
 
@@ -638,6 +664,40 @@ footer a:hover {
       margin-top: 5em;
       width: 80%;
       margin-bottom: 6em;
+    }
+
+  }
+
+@media only screen and (max-width: 1000px) {
+
+    #smallcolcontact {
+      margin: auto;
+      width: 90%;
+      display: block;
+    }
+
+    .twocontactcolumn {
+      float: left;
+      width: 40%;
+      display: block;
+    }
+
+    #call {
+      margin: 2em 0;
+      display: block;
+    }
+
+    #email {
+      margin: 2em 0;
+      display: block;
+    }
+
+    #bottomcontact {
+      display: none;
+    }
+
+    #bottommargin {
+      display: none;
     }
 
 }
